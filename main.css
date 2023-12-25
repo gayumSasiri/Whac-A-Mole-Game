@@ -1,14 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background: url("./mario-bg.jpg");
+    background: url("img/mario-bg.jpg");
     background-size: cover; 
 }
 
 #board {
     width: 540px;
     height: 540px;
-    background: url("./soil.png");
+    background: url("img/soil.png");
     background-size: cover;
     border: 3px solid white;
     border-radius: 25px;
@@ -20,11 +20,21 @@ body {
 #board div {
     width: 180px;
     height: 180px;
-    background-image: url("./pipe.png");
+    background-image: url("img/pipe.png");
     background-size: cover;
 }
 
 #board div img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#start-game {
+    width: 200px;
 }
