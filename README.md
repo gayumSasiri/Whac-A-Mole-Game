@@ -27,6 +27,7 @@ If you want to run the game locally:
    https://github.com/gayumSasiri/Whac-A-Mole-Game.git
 
 ### Version 1.0.0
+[Click to see how game looks like](https://gayumsasiri)
 
 ### License
 Copyright &copy; 2023 GAYUM.All Rights Reserved.<br>
